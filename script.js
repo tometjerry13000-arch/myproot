@@ -4,6 +4,7 @@
 // CORRIGÉ : Ajout des options spéciales (yeux différents, taches de naissance)
 // CORRIGÉ : Priorité absolue aux options spéciales avec renfort vidéo
 // CORRIGÉ : Intégration du MODE ANIMAL (chatte, tigresse, panthère, lionne, lapine)
+// CORRIGÉ : Transition - La PARTIE 2 commence EXACTEMENT sur la dernière image de la PARTIE 1
 
 console.log("🚀 Chargement de script.js...");
 
@@ -687,7 +688,15 @@ Au moment le plus intense de sa danse, elle rapproche ses mains peintes de l'obj
 IMPORTANT - PRÉPARATION POUR LA PARTIE 2 :
 - Pendant que les mains cachent l'objectif (fin de cette partie), elle aura le temps de SE CHANGER COMPLÈTEMENT
 - La transformation (nouvelle tenue, nouveaux cheveux, nouveau maquillage, effets) aura lieu HORS CAMÉRA
-- La PARTIE 2 commencera avec le résultat FINAL déjà visible`;
+- La PARTIE 2 commencera avec le résultat FINAL déjà visible
+
+🛑🛑🛑 FIN DE LA PARTIE 1 - IMAGE DE TRANSITION 🛑🛑🛑
+LA DERNIÈRE IMAGE DE LA PARTIE 1 EST CELLE OÙ :
+- La statue a cligné des yeux, souri, et ses doigts bougent
+- La petite fille est immobile face à elle, émerveillée
+- LES MAINS SONT EN TRAIN DE MASQUER L'OBJECTIF
+
+CETTE IMAGE PRÉCISE SERA LE POINT DE DÉPART DE LA PARTIE 2.`;
     }
 
     // ===== PARTIE 2 - TOUTES LES TRANSFORMATIONS APPLIQUÉES =====
@@ -824,6 +833,12 @@ ${hasPriorityEyes ?
         }
 
         return `Suite de la transition - DEUXIÈME PARTIE de 6 secondes.
+
+🛑🛑🛑 POINT DE DÉPART : DERNIÈRE IMAGE DE LA PARTIE 1 🛑🛑🛑
+- Cette image est CELLE OÙ la statue a déjà cligné des yeux, souri, et ses doigts bougent
+- La petite fille est immobile face à elle
+- LES MAINS VIENNENT DE SE RETIRER après avoir masqué l'écran
+- LA DANSE COMMENCE EXACTEMENT À PARTIR DE CETTE POSITION
 
 CONTINUITÉ PARFAITE DU VISAGE - ABSOLUMENT CRUCIAL :
 - Le sujet est STRICTEMENT IDENTIQUE à celui de la PARTIE 1
@@ -964,7 +979,14 @@ RAPPEL ULTIME - TRANSITION NATURELLE :
 - AUCUNE métamorphose visible pendant ces 6 secondes
 - Tout a eu lieu PENDANT que les mains cachaient l'objectif dans la PARTIE 1
 - Le réalisme est ABSOLUMENT CRUCIAL - on doit croire qu'elle s'est changée en coulisses
-- La FINALE est le MOMENT CLÉ à retenir - elle doit être PARFAITE`;
+- La FINALE est le MOMENT CLÉ à retenir - elle doit être PARFAITE
+
+🔄🔄🔄 RAPPEL ULTIME SUR LA TRANSITION 🔄🔄🔄
+- La PARTIE 2 COMMENCE EXACTEMENT sur la DERNIÈRE IMAGE de la PARTIE 1
+- La statue a DÉJÀ commencé à réagir (clignement, sourire, doigts)
+- Les mains VIENNENT DE SE RETIRER après avoir masqué l'écran
+- La danse DÉMARRE DE CETTE POSITION PRÉCISE
+- PAS DE COUPURE - C'EST UNE SUITE DIRECTE`;
     }
 
     generateConsignes() {
@@ -1513,4 +1535,4 @@ window.initCharacters = initCharacters;
 window.displayPrompt = displayPrompt;
 window.updateRecap = updateRecap;
 
-console.log("📦 script.js chargé avec TOUS les effets - MODE ANIMAL INTÉGRÉ");
+console.log("📦 script.js chargé avec TOUS les effets - MODE ANIMAL INTÉGRÉ - TRANSITION CORRIGÉE");
